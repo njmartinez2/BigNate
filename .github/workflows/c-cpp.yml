@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: c-cpp/checkout@v3
       - name: Build project
-        run: g++ main.cpp -std=c++17 -o bigNate
+        run: g++ Helloworld.cpp -std=c++17 -o bigNate
